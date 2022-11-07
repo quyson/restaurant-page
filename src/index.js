@@ -1,3 +1,1 @@
-const container = document.querySelector('.container');
-
-container.textContent = "Hello";
+import "./styles.css";
