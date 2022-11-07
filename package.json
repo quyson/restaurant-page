@@ -1,0 +1,22 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quyson/restaurant-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quyson/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/quyson/restaurant-page#readme",
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
