@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 130vh;
+    width: 100vw;
+}
+
+.container{
+    height: 100%;
+}
+
+.header{
+    height: 10%;
+    background-image: linear-gradient(90deg, #22d3ee, #818cf8);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid #1e3a8a 1px;
+}
+
+.right{
+    width: 40%;
+}
+
+.right ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+li {
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.home:hover, .menu:hover, .contact:hover{
+    border: dashed white 2px;
+    color: #facc15;
+    font-size: 1.75rem;
+
+}
+
+.main{
+    height: 90%;
+    background-size: cover;
+    background-position: 0%;
+    background-image: url(../images/wallpaper.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    width: 85%;
+    height: 80%;
+    background-color: #c084fc;
+    opacity: 75%;
+    border: solid #581c87 3px;
+    border-radius: 5px;
+}
