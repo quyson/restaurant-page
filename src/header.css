@@ -88,3 +88,49 @@ li {
     background-size: cover;
     background-position: center;
 }
+
+.foodContainer{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.images{
+    height: 210px;
+    width: 300px;
+    border: purple solid 1px;
+}
+
+#images0{
+    background-image: url(../images/krabbypatty.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#images1{
+    background-image: url(../images/pizza.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.description{
+    font-size: 2rem;
+}
+
+.price{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.owner{
+    height: 15rem;
+    width: 15rem;
+    border: solid black 1px;
+    border-radius: 50px;
+    background-image: url(../images/krabs.jpg);
+    background-size: cover;
+    background-position: center;
+}
